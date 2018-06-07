@@ -1,10 +1,10 @@
 const calculateStylePoints = (styleNotes) => {
 	
-	let min = Math.min.apply(Math, styleNotes); 
-	let max = Math.max.apply(Math, styleNotes); 
+	//let min = Math.min.apply(Math, styleNotes); 
+	//let max = Math.max.apply(Math, styleNotes); 
 		
-//	let max = Math.max(...styleNotes);
-//  let min = Math.min(...styleNotes);
+	  let max = Math.max(...styleNotes);
+	  let min = Math.min(...styleNotes);
     
     return styleNotes.reduce((a, b) => a + b) - max - min;
 };
