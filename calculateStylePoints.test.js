@@ -20,14 +20,6 @@ const calculateStylePoints = require('./calculateStylePoints');
 			const expected = 10.5;
 			
 			assert.equal(actual, expected);
-		});
-		
-	/*	it('wrong type!', () => {
-			const actual = calculateStylePoints(['abc', 3.5, 3.5, 3.5, 3.5]);
-			const expected = NaN;
-			
-			assert.equal(actual, expected);
-		});*/
-		
+		});			
 	});
 	
