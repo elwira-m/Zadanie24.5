@@ -5,7 +5,7 @@
   "main": "calculateDistancePoints.js",
   "scripts": {
     
-	"test": "mocha calculateStylePoints.test.js",
+	"test": "mocha calculateStylePoints.test.js"
 	
   },
   "keywords": [],
